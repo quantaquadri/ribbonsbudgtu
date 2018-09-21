@@ -9052,7 +9052,7 @@ a.fc-more:hover {
 
 .c-card {
     position: relative;
-    border: 1px solid #e6eaee;
+    border: 1px solid #f5f5f5;
     border-radius: 4px;
     background-color: #fff
 }
@@ -9063,7 +9063,7 @@ a.fc-more:hover {
 
 .c-card__header {
     /* padding: 1.5625rem 1.875rem; */
-    border-bottom: 1px solid #e6eaee;
+    /* border-bottom: 1px solid #e6eaee; */
     background-color: #fff5f9;
 }
 
@@ -9095,7 +9095,7 @@ a.fc-more:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 70px;
+    width: 90px;
     height: 70px;
     margin: 0 auto;
     border-radius: 100%;
@@ -10427,7 +10427,7 @@ textarea.c-input {
         -webkit-overflow-scrolling: touch
     }
     .c-table-responsive\@desktop .c-table {
-        display: block;
+        /* display: block; */
         overflow-y: hidden
     }
 }
@@ -10461,7 +10461,7 @@ textarea.c-input {
     border-bottom: 0;
     border-radius: 4px 4px 0 0;
     background-color: #fff;
-    color: #354052;
+    color: #f9508c;
     font-size: 24px;
     text-align: left
 }
@@ -10494,7 +10494,7 @@ textarea.c-input {
 
 .c-table__head--slim {
     padding: 0;
-    background-color: #f5f8fa
+    background-color: #fff5f9;
 }
 
 .c-table__head--slim .c-table__cell {
