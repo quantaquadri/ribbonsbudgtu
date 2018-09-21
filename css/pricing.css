@@ -86,8 +86,10 @@ li {
   border-color: #f9508c;
 }
 
-.btn-primary :hover :focus {
-  color: #f9508c;
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #f9508c;
+  border-color: #f9508c; /*set the color you want here*/
 }
 
 .table .thead-light th {
