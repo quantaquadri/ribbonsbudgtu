@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dxuap8kxy/image/upload/v1534437775/ribweb3/rb.ico" />
+
+    <title>Ribbons</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/pricing.css" rel="stylesheet">
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+        
+    <script src="js/Chart.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      
+      <h5 class="my-0 mr-md-auto font-weight-normal" style="font-size: 24px; color: #f9508c;">#Ribbons</h5>
+      
+    </div>
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      
+      <h1 class="display-4">Your Budget Breakdown</h1><br>
+      <!-- <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p> -->
+    
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6">
+          
+          <div class="card" style="margin-bottom: 50px;">
+                
+                <table class="table">
+                  
+                  <thead class="thead-light">
+                  
+                    <tr>
+                  
+                      <th scope="col">Vendor</th>
+                  
+                      <th scope="col">Price</th>
+                  
+                      <th scope="col">Who Will Pay?</th>
+                  
+                    </tr>
+                  
+                  </thead>
+                  
+                  <tbody>
+                  
+                    <tr>
+                  
+                      <th scope="row">Photographer</th>
+                  
+                      <td>#17,000,000</td>
+                  
+                      <td>You</td>
+                  
+                    </tr>
+                  
+                    <tr>
+                  
+                      <th scope="row">Decor</th>
+                  
+                      <td>#17,000,000</td>
+                  
+                      <td>Husband's Family</td>
+                  
+                    </tr>
+                  
+                    <tr>
+                  
+                      <th scope="row">Caterer</th>
+                  
+                      <td>#17,000,000</td>
+                  
+                      <td>Ayo's Pledge</td>
+                  
+                    </tr>
+                  
+                  </tbody>
+                
+                </table>
+            
+          </div>
+
+        </div>
+
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-5">
+
+          <p style="font-size: 14px;">Click on any part of the diagram to see the distribution of your budget:</p><br><br>
+        
+          <canvas style="align-content: center;" id="mycanvas" width="256" height="256"></canvas>
+          
+          <br><br>
+          
+          <form>
+      
+              <h2 style="color: #f9508c; font-size: 20px;">Did Your Family & Friends Pledge To Help?</h2><br>
+
+              <p>If YES, fill the details below with what they promised to help with and watch how your budget changes:</p><br>
+
+              <div class="c-field u-mb-small">
+              
+                  <label class="c-field__label" for="input1">Name:</label>
+              
+                  <input class="c-input" type="text" id="input1" placeholder="Name of of the person who promsied to help">
+              
+              </div>
+
+              <br>
+              
+              <div class="c-field u-mb-small">
+              
+                  <label class="c-field__label" for="input1">Vendor They Promised To Help With:</label>
+              
+                  <select class="c-input">
+                      
+                    <option>Photographer</option>
+                    
+                    <option>Decor</option>
+                    
+                    <option>Venue</option>
+                  
+                  </select>
+
+                  <br>
+
+                  <button class="btn btn-lg btn-primary btn-block" type="submit">Update</button>
+              
+              </div>
+          
+          </form>
+
+              
+          
+          
+          
+        </div>
+
+      
+      </div>
+    
+
+      <footer class="pt-4 my-md-5 pt-md-5 border-top" style="margin-top: 50px;">
+
+        <div class="row">
+        
+          <div class="col-12 col-md">
+        
+            <img class="mb-2" src="https://res.cloudinary.com/dxuap8kxy/image/upload/v1537276301/blog/rr3.png" alt="" style="width: 40%;">
+            
+            <br><br>
+
+          </div>
+        
+         
+
+          <div class="col-6 col-md">
+        
+            <h5 style="color: #f9508c;">Features</h5>
+        
+            <ul class="list-unstyled text-small">
+        
+              <li><a class="text-muted" href="#">Budgetting</a></li>
+              <li><a class="text-muted" href="#">Checklist</a></li>
+        
+            </ul>
+        
+          </div>
+        
+          <div class="col-6 col-md">
+        
+            <h5 style="color: #f9508c;">About</h5>
+        
+            <ul class="list-unstyled text-small">
+        
+              <li><a class="text-muted" href="#">Privacy</a></li>
+        
+              <li><a class="text-muted" href="#">Terms of Use</a></li>
+        
+            </ul>
+        
+          </div>
+        
+        </div>
+      
+      </footer>
+    
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    
+    <script src="js/popper.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/holder.min.js"></script>
+    
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+
+<script>
+    $(document).ready(function(){
+      var ctx = $("#mycanvas").get(0).getContext("2d");
+
+      //pie chart data
+      //sum of values = 360
+      var data = [
+        {
+          value: 180,
+          color: "cornflowerblue",
+          highlight: "lightskyblue",
+          label: "Venue"
+        },
+        {
+          value: 50,
+          color: "lightgreen",
+          highlight: "yellowgreen",
+          label: "Decor"
+        },
+        {
+          value: 40,
+          color: "orange",
+          highlight: "darkorange",
+          label: "Photographer"
+                  },
+                  
+                  {
+          value: 40,
+          color: "red",
+          highlight: "red",
+          label: "Planning"
+        }
+              ];
+              
+              
+
+      //draw
+      var piechart = new Chart(ctx).Pie(data);
+    });
+  </script>
+  
+</body>
+
+</html>

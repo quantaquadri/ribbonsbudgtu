@@ -1,0 +1,103 @@
+html {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+    padding: 0
+}
+
+h1 {
+  font-size: 2.25rem
+}
+
+h2 {
+  font-size: 1.75rem
+}
+
+h3 {
+  font-size: 1.5rem
+}
+
+h4 {
+  font-size: 1.25rem
+}
+
+h5 {
+  font-size: 1rem
+}
+
+h6 {
+  font-size: 1rem
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .15rem .5rem rgba(0, 0, 0, .05); }
+
+.c-input {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: .59375rem .9375rem;
+  transition: all .3s;
+  border: 1px solid #dfe3e9;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #354052;
+  font-size: .875rem;
+  font-weight: 400;
+  resize: none;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #f9508c;
+  border-color: #f9508c;
+}
+
+.btn-primary :hover :focus {
+  color: #f9508c;
+}
+
+.table .thead-light th {
+  color: #495057;
+  background-color: #fff5f9;
+  border-color: #fff5f9;
+}
+
+.display-4 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
