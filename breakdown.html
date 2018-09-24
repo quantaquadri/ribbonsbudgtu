@@ -29,7 +29,7 @@
 
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
       
-      <h5 class="my-0 mr-md-auto font-weight-normal" style="font-size: 24px; color: #f9508c;">#Ribbons</h5>
+      <h5 class="my-0 mr-md-auto font-weight-normal" style="font-size: 24px; color: #f9508c;">#BudgetTool</h5>
       
     </div>
 
@@ -151,66 +151,85 @@
         </div>
       </div>
       
-      <!-- <div class="row">
+      <div class="row">
 
-          <div class="col-md-1"></div>
+          <div class="col-md-3"></div>
 
-          <div class="col-md-10">
+          <div class="col-md-6 text-center">
 
-            <form>
+            <br><h1 class="display-4" style="font-size: 1.5rem;">Will You Like To See How Much More You Can Do With This Tool?</h1><br>        
+               
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="">Click To Try</button>
 
-                <br><h1 class="display-4 text-center">More Features For You:</h1><br>
-        
-                <h2 class="text-center" style="color: #f9508c; font-size: 20px;">Does Your Family & Friends Pledge To Help With Any of The Vendors?</h2><br>
-
-                <p  class="text-center">If YES, fill the details below with what they promised to help with and watch how your budget changes:</p><br>
-
-                <div class="c-field u-mb-small">
-                
-                    <label class="c-field__label" for="input1">Name:</label>
-                
-                    <input class="c-input" type="text" id="input1" placeholder="Name of of the person who promsied to help">
-                
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              
+                <div class="modal-dialog" role="document">
+              
+                  <div class="modal-content">
+              
+                    <div class="modal-header">
+              
+                      <h5 class="modal-title" id="exampleModalLabel">We want you to enjoy the tool the <em style="color: #f9508c">Ribbons exclusive way.</em> Fill your details and start using.</h5>
+              
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              
+                        <span aria-hidden="true">&times;</span>
+              
+                      </button>
+              
+                    </div>
+              
+                    <div class="modal-body">
+              
+                      <form>
+              
+                        <div class="form-group">
+              
+                          <label for="name" class="col-form-label">Name:</label>
+              
+                          <input type="text" class="form-control" id="name">
+              
+                        </div>
+              
+                        <div class="form-group">
+              
+                          <label for="phone" class="col-form-label">Phone Number:</label>
+              
+                          <input type="text" class="form-control" id="phone">
+              
+                        </div>
+              
+                      </form>
+              
+                    </div>
+              
+                    <div class="modal-footer">
+              
+                      <button type="button" class="btn btn-primary">Start Using</button>
+              
+                    </div>
+              
+                  </div>
+              
                 </div>
+              
+              </div>
 
-                <br>
-                
-                <div class="c-field u-mb-small">
-                
-                    <label class="c-field__label" for="input1">Vendor They Promised To Help With:</label>
-                
-                    <select class="c-input">
-                        
-                      <option>Photographer</option>
-                      
-                      <option>Decor</option>
-                      
-                      <option>Venue</option>
-                    
-                    </select>
-
-                    <br>
-
-                    <a class="btn btn-primary btn-lg btn-block" href="breakdown-feature.html" role="button">Submit</a>
-                
-                </div>
+          </div>
             
-              </form>
-
-            </div>
-            
-            <div class="col-md-1"></div>
+          <div class="col-md-3"></div>
       
-      </div> -->
+      </div>
     
 
-      <footer class="pt-4 my-md-5 pt-md-5 border-top" style="margin-top: 50px;">
+      <footer class="pt-4 my-md-5 pt-md-5 border-top" style="margin-top: 60px;">
 
         <div class="row">
         
-          <div class="col-12 col-md">
+          <div class="col-md-6 text-muted">
+            <h6 style="font-size: 12px;">All Rights Reserved - © RIBBONS Inc. 2018</h6>
         
-            <img class="mb-2" src="https://res.cloudinary.com/dxuap8kxy/image/upload/v1537276301/blog/rr3.png" alt="" style="width: 40%;">
+            <!-- <img class="mb-2" src="https://res.cloudinary.com/dxuap8kxy/image/upload/v1537276301/blog/rr3.png" alt="" style="width: 40%;"> -->
             
             <br><br>
 
@@ -218,7 +237,7 @@
         
          
 
-          <div class="col-6 col-md">
+          <!-- <div class="col-md-4">
         
             <h5 style="color: #f9508c;">Features</h5>
         
@@ -231,7 +250,7 @@
         
           </div>
         
-          <div class="col-6 col-md">
+          <div class="col-md-4">
         
             <h5 style="color: #f9508c;">About</h5>
         
@@ -244,7 +263,7 @@
             </ul>
         
           </div>
-        
+         -->
         </div>
       
       </footer>
@@ -311,6 +330,11 @@
       var piechart = new Chart(ctx).Pie(data);
     });
   </script>
+
+  
+  <!-- pop up form modal script-->
+  
+  
   
 </body>
 
